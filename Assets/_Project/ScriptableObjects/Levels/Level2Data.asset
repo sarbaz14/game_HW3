@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aa7c3a0a0ca185b2b74a572153dbe56, type: 3}
+  m_Name: Level2Data
+  m_EditorClassIdentifier: Assembly-CSharp::ChickenShooter.LevelDataSO
+  levelNumber: 2
+  sceneName: Level2
+  nextSceneName: Level3
+  themeName: Asteroid Belt & Jupiter
+  primaryBgTint: {r: 0.1, g: 0.055, b: 0.045, a: 1}
+  secondaryBgTint: {r: 1, g: 0.66, b: 0.32, a: 1}
+  levelBGM: {fileID: 8300000, guid: f2c1c6295d295dbb4a0a30d71530eb78, type: 3}
+  rounds:
+  - {fileID: 11400000, guid: e433283f6733c73d39ff3b095521f629, type: 2}
+  - {fileID: 11400000, guid: 64fd3a9a9355a162bbbbf62e238f4ec7, type: 2}
+  - {fileID: 11400000, guid: ca00a3bd33ce8e8f0baaea89a753f4c8, type: 2}
+  - {fileID: 11400000, guid: ac607e0d1f5461ab4ba4b30462c4e054, type: 2}
+  - {fileID: 11400000, guid: 1ab408917f7e1c82bb557f337c6de336, type: 2}
+  - {fileID: 11400000, guid: 3e914e73520fc1f61b9142d453781092, type: 2}
+  - {fileID: 11400000, guid: 8a68c58880956d95d85bc2f4924e55aa, type: 2}
+  bossPrefab: {fileID: 2016745596048794972, guid: 8e7d28bfce6709013b0b92417200e5d5, type: 3}
+  bossName: Mecha-Chicken Overlord
+  bossMaxHealth: 520
+  minionPrefab: {fileID: 5475521967158471871, guid: 93d298175318b74418e8abd8efbe540c, type: 3}
+  minionPoolKey: Minion2

@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05cfbd6fa350b27ecb458e0dbeb3c232, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: Assembly-CSharp::ChickenShooter.GameConfig
+  inputActions: {fileID: -944628639613478452, guid: 8b6525c8b1cdc6e99af5b6275cfdd59c, type: 3}
+  weapons:
+  - {fileID: 11400000, guid: a36958f4b4cb9b22a9be54859fb346d9, type: 2}
+  - {fileID: 11400000, guid: 143ccf7132c50582bbad2f875fcab7ad, type: 2}
+  - {fileID: 11400000, guid: 92db1ff0b52f7d27c89e6e63f17f32f0, type: 2}
+  levels:
+  - {fileID: 11400000, guid: 56e0aff5ce466379eb4010bb18557e9a, type: 2}
+  - {fileID: 11400000, guid: 667dea46ffe0df76ebebb0d3dad22b8a, type: 2}
+  - {fileID: 11400000, guid: 91d099ee008b57b51be7be64165abff4, type: 2}
+  audio: {fileID: 11400000, guid: 7f4e59bd132de201e874df38e7e9eb7b, type: 2}
+  pools:
+  - key: Laser1
+    prefab: {fileID: 106584438978691833, guid: 83354e648e3c0065d9c241cceeac6720, type: 3}
+    initialSize: 16
+  - key: Laser2
+    prefab: {fileID: 8732495460567088892, guid: 53ea8b505b645d730929726a36263c56, type: 3}
+    initialSize: 16
+  - key: Laser3
+    prefab: {fileID: 8584468534878213200, guid: 9825b66d3c11eaad3af223970cb070ba, type: 3}
+    initialSize: 24
+  - key: SuperMissile
+    prefab: {fileID: 5456803981867719598, guid: 779645443156a610c8570de664dbba32, type: 3}
+    initialSize: 3
+  - key: EnemyEgg
+    prefab: {fileID: 8048508986539407524, guid: 89fa498858200628d8ffd18e0defdedf, type: 3}
+    initialSize: 40
+  - key: EnergyFeather
+    prefab: {fileID: 8195622895159202502, guid: 6203ac82670f584e2bf0b6077a282cc2, type: 3}
+    initialSize: 32
+  - key: Asteroid
+    prefab: {fileID: 4158173333540325274, guid: d32dfeb53b38457dc99997bf088184ac, type: 3}
+    initialSize: 24
+  - key: Chicken1
+    prefab: {fileID: 1341789571094986999, guid: e04e05d96cd2b206db3139b8897d0e58, type: 3}
+    initialSize: 24
+  - key: Chicken2
+    prefab: {fileID: 9007139733343976083, guid: 440e38581dd66047882f503012d72dd0, type: 3}
+    initialSize: 32
+  - key: Chicken3
+    prefab: {fileID: 1589666981545955192, guid: 4ae83583869fbb37ba6872a03ed6781c, type: 3}
+    initialSize: 44
+  - key: Minion1
+    prefab: {fileID: 8834517794268453222, guid: 288a65d739ee13121a8a1a1775132c42, type: 3}
+    initialSize: 6
+  - key: Minion2
+    prefab: {fileID: 5475521967158471871, guid: 93d298175318b74418e8abd8efbe540c, type: 3}
+    initialSize: 6
+  - key: Minion3
+    prefab: {fileID: 4115457019488569806, guid: 5c19bd237475be02dba465d47c9e759c, type: 3}
+    initialSize: 6
+  - key: Pickup_Drumstick
+    prefab: {fileID: 2010801304459260667, guid: c2fbdde75360769ac9ccf2e6cab1785a, type: 3}
+    initialSize: 8
+  - key: Pickup_Burger
+    prefab: {fileID: 3488793000304360638, guid: 38e243f9cfe2feaa5911c280472cab38, type: 3}
+    initialSize: 6
+  - key: Pickup_Gift
+    prefab: {fileID: 2376087703708289683, guid: c210b44325447d5439338c7d5ee896ec, type: 3}
+    initialSize: 4
+  - key: VFX_Explosion
+    prefab: {fileID: 8632537260121116554, guid: 4f03df840df678912a1aa27039b6803e, type: 3}
+    initialSize: 12
+  - key: VFX_FeatherSplat
+    prefab: {fileID: 749048556488042542, guid: 144a51737c2cf8ddeb2fac09b463e4a1, type: 3}
+    initialSize: 12
+  - key: VFX_EggCrack
+    prefab: {fileID: 5416396191482742615, guid: 7a143a35098be63ed8eca4f4e40944b6, type: 3}
+    initialSize: 10
+  - key: VFX_Shockwave
+    prefab: {fileID: 7773461039827247315, guid: fb8e66dea05433d2ca5d34bb6d1473cb, type: 3}
+    initialSize: 3
+  playerMoveSpeed: 8

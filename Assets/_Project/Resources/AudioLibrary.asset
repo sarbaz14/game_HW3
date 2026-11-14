@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e57e078b8e03fdaba47cf2e5bfe3651, type: 3}
+  m_Name: AudioLibrary
+  m_EditorClassIdentifier: Assembly-CSharp::ChickenShooter.AudioLibrary
+  bgm:
+  - {fileID: 8300000, guid: 2da9e43019f1e696f8c7892cb6177bbf, type: 3}
+  - {fileID: 8300000, guid: e3d96f87ee94a5149928c6903e33b00b, type: 3}
+  - {fileID: 8300000, guid: f2c1c6295d295dbb4a0a30d71530eb78, type: 3}
+  - {fileID: 8300000, guid: cae31aa99bdd7d54db4cb76348409c93, type: 3}
+  sfx:
+  - {fileID: 8300000, guid: d5b3512757e67e79488f04ff6bf7e201, type: 3}
+  - {fileID: 8300000, guid: 51a9eb55c8944fd7e832d1cd0115ed9a, type: 3}
+  - {fileID: 8300000, guid: f4c655c828ca73844bfddd5dcc2fe011, type: 3}
+  - {fileID: 8300000, guid: 6f8e5744acfcc60a6b8e3c4525b641ed, type: 3}
+  - {fileID: 8300000, guid: 872e35322139f6557a996ff562222ff9, type: 3}
+  - {fileID: 8300000, guid: d74e53c33dff2b9d19491efa4280d4d4, type: 3}
+  - {fileID: 8300000, guid: edc6bca3ffed56d8ebd98075c291aa4b, type: 3}
+  - {fileID: 8300000, guid: 51d76ba67d9adec2aaf87b39c2ca2ea0, type: 3}

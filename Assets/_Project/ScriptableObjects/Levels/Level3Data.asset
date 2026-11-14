@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aa7c3a0a0ca185b2b74a572153dbe56, type: 3}
+  m_Name: Level3Data
+  m_EditorClassIdentifier: Assembly-CSharp::ChickenShooter.LevelDataSO
+  levelNumber: 3
+  sceneName: Level3
+  nextSceneName: 
+  themeName: Deep Galaxy
+  primaryBgTint: {r: 0.05, g: 0.02, b: 0.1, a: 1}
+  secondaryBgTint: {r: 0.75, g: 0.35, b: 1, a: 1}
+  levelBGM: {fileID: 8300000, guid: cae31aa99bdd7d54db4cb76348409c93, type: 3}
+  rounds:
+  - {fileID: 11400000, guid: 0081549d5a35602b59e53f2688f735ec, type: 2}
+  - {fileID: 11400000, guid: 4be133686cd973a41b81c7df867a52ab, type: 2}
+  - {fileID: 11400000, guid: 051214122296bbe429f2943478097672, type: 2}
+  - {fileID: 11400000, guid: 4712f6fb8bf4b343f837a457a11f0f87, type: 2}
+  - {fileID: 11400000, guid: b5ede50760632c82da48b4bfbe90eabb, type: 2}
+  - {fileID: 11400000, guid: fc164c86dc6a86005928ce252bc9d784, type: 2}
+  - {fileID: 11400000, guid: 209ac95e6144c8372b9c992e6a102e62, type: 2}
+  - {fileID: 11400000, guid: ec0cadd85f440aeddacac673c45e10de, type: 2}
+  - {fileID: 11400000, guid: 29c851d14cffa4825be110dddcde806e, type: 2}
+  - {fileID: 11400000, guid: dc6e27ed72e8d0686be707f98bf65141, type: 2}
+  bossPrefab: {fileID: 6331959334228042318, guid: b22f9131aabb48b3da56845b303d47b7, type: 3}
+  bossName: Galactic Emperor
+  bossMaxHealth: 900
+  minionPrefab: {fileID: 4115457019488569806, guid: 5c19bd237475be02dba465d47c9e759c, type: 3}
+  minionPoolKey: Minion3

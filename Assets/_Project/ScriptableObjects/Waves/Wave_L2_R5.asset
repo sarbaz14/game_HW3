@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42c5bec8f4052b43cb2e421c210de6af, type: 3}
+  m_Name: Wave_L2_R5
+  m_EditorClassIdentifier: Assembly-CSharp::ChickenShooter.WaveDataSO
+  waveName: Wave_L2_R5
+  waveType: 0
+  enemyOrAsteroidPrefab: {fileID: 9007139733343976083, guid: 440e38581dd66047882f503012d72dd0, type: 3}
+  poolKey: Chicken2
+  spawnCount: 26
+  enemyHealth: 2.8
+  moveSpeed: 1
+  eggDropInterval: 1.55
+  diveBombInterval: 3.8
+  scoreValue: 80
+  formationType: 1
+  entryPathType: 1
+  swayAmplitude: 2.4
+  swaySpeed: 1.15
+  descentSpeed: 0.16
+  asteroidSpawnInterval: 0.45
+  asteroidHealth: 2
+  asteroidSpeed: 2.2
+  speedMultiplier: 1.34
+  fireRateMultiplier: 1.4
+  roundTimeout: 100
